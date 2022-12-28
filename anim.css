@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+.list{
+    width: 100%;
+    max-width: 100%;
+    background-color: red;
+    position: relative;
+    height: 100vh;
+}
+.titlle{
+text-align: center;
+color: #fff;
+
+}
+.enter{
+    position: relative;
+    width: 60%;
+    transform: translateX(-50%);
+    left: 50%;
+    color: blueviolet;
+    height: 50px;
+    font-size: 20px;
+
+}
+.add{
+ 
+    height: 70px;
+    width: 200px;
+    background-color: rgb(221, 255, 0);
+    color: #fff;
+    position: absolute;
+  transform: translateX(-250px);
+  top: 100px;
+    cursor: pointer;
+}
+.elements{
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    top: 200px;
+    height: 60vh;
+    overflow-y: scroll;
+}
+.element{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    min-width: 100%;
+    z-index: 1111;
+    text-align: center;
+    background-color: orange;
+}
+.elem_btn{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: pink;
+    cursor: pointer;
+   float: right;
+}
